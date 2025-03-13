@@ -1,5 +1,8 @@
-![logo](logo.svg)
+
 <div align="center">
+  
+  ![logo](logo.svg)
+  
   Graph-based representation of AI research field  
 </div>
 
