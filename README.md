@@ -1,5 +1,7 @@
-# CitationFlow.AI
-Graph-based representation of AI research field  
+![logo](logo.svg)
+<div align="center">
+  Graph-based representation of AI research field  
+</div>
 
 ## Index  
 - [Project Overview](#project-overview)
