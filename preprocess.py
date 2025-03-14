@@ -30,7 +30,7 @@ def create_browser(webdriver_path):
 data = None
 
 
-with open('data.json') as f:
+with open('out/raw_data.json') as f:
     data = json.load(f)
 
 browser = create_browser(chromedriver_path)
@@ -69,10 +69,10 @@ for article in data:
             for ref in references:
                 references_all[doi].append(ref.text)
 
-with open('references.json', 'w') as f:
+with open('out/references.json', 'w') as f:
     json.dump(references_all, f)
 
-with open('keywords_stat.json', 'w') as f:
+with open('out/keywords_stat.json', 'w') as f:
     json.dump(keywords_stat, f )
     
 browser.close()       
